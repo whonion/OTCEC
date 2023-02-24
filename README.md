@@ -24,3 +24,11 @@ The buyer adds to the storage of the smart contract (func OpenOTC):
 <li>Address of the asset that plans to sell from the Buyer</li>
 </ul>
 After adding the assets, if everything is correct, you need to call the function ExecP2P function on both sides
+
+# An Example
+
+Suppose that the Parties have agreed to exchange assets A for B at a price:
+A = B*12
+A = 10,000.
+It means that user A has to deposit 10.000 tokens A
+And user B must deposit 120,000 tokens B.
